@@ -27,7 +27,7 @@
     },
     "host": {
       "type": "string",
-      "pattern": "^[^{}/ :\\\\]+(?::\\d+)?$",
+      "pattern": "^[^{}/ :\\\\]+(?::\\d+)?",
       "description": "The host (name or ip) of the API. Example: 'swagger.io'"
     },
     "basePath": {
